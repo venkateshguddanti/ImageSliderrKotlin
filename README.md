@@ -34,7 +34,15 @@ class YourApplication : android.app.Application() {
     }
  
 }
+```
 
+In .xml Layout declare slider Preferebly give height  >= 300dp (Becauser image height in slider is 250dp)
+```
+ <org.hm.com.imageslider.ImageSlider
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        />
 ```
 In your Activity or Fragment do the follwoing to use slider 
 

@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        Fresco.initialize(this)
         setContentView(R.layout.activity_main)
 
         val items = listOf<SliderItem>(
@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
         )
         slider.setPages(items)
         slider.hideDots()
-        //to show grid for hide use hideGrid()
         slider.showGrid()
 
     }

@@ -1,5 +1,7 @@
 # ImageSliderrKotlin
 
+<img src="Screenshot.png" width="400" height="790">
+
 in project level build.gradle add following
 
 ```
@@ -36,7 +38,7 @@ class YourApplication : android.app.Application() {
 }
 ```
 
-In .xml Layout declare slider Preferebly give height  >= 300dp (Becauser image height in slider is 250dp)
+In .xml Layout declare slider Preferebly give height  >= 300dp (Because image height in slider is 250dp)
 ```
  <org.hm.com.imageslider.ImageSlider
         android:id="@+id/slider"
